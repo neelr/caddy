@@ -1,4 +1,6 @@
-## Inspiration
+<p align="center">
+  <img src="https://github.com/neelr/caddy/assets/56745453/1115d767-6b41-4c00-8e00-2c41bb2fc091" />
+</p>
 
 Imagine if recalling research papers and interesting blog posts was as easy as recalling memories -- based on semantics and relevant context instead of grasping for keywords.
 
@@ -33,3 +35,9 @@ We're implementing more features for:
 - Web crawling for research sites (recommending papers beyond ArXiv)
 - Explore connected papers in visual graph and visualized clusters of research interests
 - Functionality for blog posts, articles, etc. (in addition to research papers)
+
+![image](https://github.com/neelr/caddy/assets/56745453/009a1344-be77-4e5e-9df7-4e3e69b2aeb5)
+![image](https://github.com/neelr/caddy/assets/56745453/281c1ce0-2c46-4188-87bf-70ac89361505)
+![image](https://github.com/neelr/caddy/assets/56745453/24dc4530-c543-416f-9fbe-55ffd4689070)
+![image](https://github.com/neelr/caddy/assets/56745453/cb482fc4-76d1-44f6-85f4-bf032f936f5d)
+
