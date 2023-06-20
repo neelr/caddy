@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "***REMOVED***"
+openai.api_key = "xxx"
 
 def get_query(question: str):
 
@@ -36,7 +36,7 @@ import os
 import pinecone
 
 # get api key from app.pinecone.io
-PINECONE_API_KEY = "***REMOVED***"
+PINECONE_API_KEY = "xxx"
 PINECONE_ENV = "asia-southeast1-gcp-free"
 
 pinecone.init(
@@ -124,7 +124,7 @@ def reccs():
         cluster_centroid = centroids[cluster_idx]
         centroid_list.append(cluster_centroid)
     # alexandria
-    PINECONE_API_KEY = "***REMOVED***"
+    PINECONE_API_KEY = "54875c03-d378-4f72-b321-62b0b526f406"
     PINECONE_ENV = "us-central1-gcp"
 
     pinecone.init(
@@ -139,7 +139,7 @@ def reccs():
     for c in centroid_list:
         id = get_similar(c.tolist(), index=index)
         pv.append(id)
-    PINECONE_API_KEY = "***REMOVED***"
+    PINECONE_API_KEY = "xxx"
     PINECONE_ENV = "asia-southeast1-gcp-free"
 
     pinecone.init(
